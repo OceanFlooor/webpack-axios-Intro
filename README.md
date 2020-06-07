@@ -5,9 +5,10 @@
 ```
 cd webpack-axios-Intro
 npm i
-webpack
+npm run server
 ```
-然后浏览器打开`index.html`
+
+也可以运行`webpack`打包，然后浏览器打开`index.html`
 
 ## 项目结构
 ```
