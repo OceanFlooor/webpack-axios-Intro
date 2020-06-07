@@ -5,7 +5,7 @@ export default function () {
   greet.textContent = "Hi there and greetings!";
   greet.onclick = function () {
     console.log("click");
-    fetch("XXX", { name: "raven", age: "25" }, "post", { type: "json" });
+    fetch("XXX", { name: "raven", age: "25" });
   };
   return greet;
 }

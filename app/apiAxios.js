@@ -128,5 +128,3 @@ function fetch(url, data, method = "get", options = { type: "urlencoded" }) {
 }
 
 export default fetch;
-
-// fetch('XXX', { name: 'raven', age: '25' }, 'post', {type: 'json'})
